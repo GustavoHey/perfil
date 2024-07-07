@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<link rel="stylesheet" href="styles.css">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Links</title>
+</head>
+<body>
+    <div class="profile-pic"></div>
+    <h1>Gustavo Henrique C.</h1>
+    <div class="p">
+        <p>17y / Designer Gráfico / Front-End</p></div>
+    <div class="a">
+<button class="linkedin" onclick="window.open('https://www.linkedin.com/in/gustavo-henrique-cirillo-b522a3311/', '_blank')">
+    <img src="imgs/linkedin.webp" alt="LinkedIn">
+</button>
+<button onclick="window.open('https://github.com/GustavoHey', '_blank')">
+    <img src="imgs/GitHub.webp" alt="GitHub">
+</button>
+<button class="email" onclick="window.open('mailto:gustavoheri.contato@gmail.com', '_blank')">
+    <img src="imgs/email.webp" alt="Email">
+</button>
+        </div>
+    <div class="a">
+<button class="instagram" onclick="window.open('https://www.instagram.com/guzz.ins/', '_blank')">
+    <img src="imgs/instagram.webp" alt="Instagram">
+</button>
+<button class="behance" onclick="window.open('https://www.behance.net/gustavohenrique573', '_blank')">
+    <img src="imgs/behance.webp" alt="BeHance">
+</button>
+<button class="spotify" onclick="window.open('https://open.spotify.com/user/30neqwb5z6dzuuw3y15ml18ri', '_blank')">
+    <img src="imgs/spotify.webp" alt="Spotify">
+</button>
+        </div>
+    <script>
+        document.addEventListener('contextmenu', function(event) {
+            event.preventDefault();
+        });
+
+        document.addEventListener('keydown', function(event) {
+            if (event.ctrlKey && event.shiftKey && event.key === 'I') {
+                event.preventDefault();
+            }
+            if (event.ctrlKey && event.shiftKey && event.key === 'J') {
+                event.preventDefault();
+            }
+            if (event.ctrlKey && event.key === 'U') {
+                event.preventDefault();
+            }
+            if (event.key === 'F12') {
+                event.preventDefault();
+            }
+            if (event.ctrlKey && event.key === 'c') {
+                event.preventDefault();
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+
+        body, main {
+            background-color: #070707;
+            background-image: url('imgs/fundo.webp');
+            color: #FFFFFF;
+            font-family: Glancyr, sans-serif;
+            font-weight: 700;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column; 
+        }
+
+        @font-face{
+            font-family: Glancyr;
+            src: url('Glancyr-Regular.woff'), url('Glancyr-Regular.woff') format('woff');}
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 1px solid #9900ff;
+            background-image: url('imgs/g.webp');
+            background-size: cover;
+            background-position: center;
+            margin-bottom: 20px;
+            box-shadow: rgba(153, 0, 255, 0.548) 0px 5px 15px;
+        }
+
+        h1 {
+            font-weight: 100;
+        }
+
+        button {
+            background-color: #16161660;
+            color: #ffffff;
+            border: 1px solid transparent; /* Adiciona uma borda transparente para manter o tamanho */
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 20px;
+            font-size: 14px;
+            transition: background-color 0.3s ease;
+            backdrop-filter: blur(3px); /* Aplica blur no fundo do botão */
+          }
+          
+          button:hover {
+            background-color: #7777771e;
+            backdrop-filter: blur(6px); /* Aplica blur no fundo do botão */
+            border: 1px solid #ffffff1c;
+          }
+
+        a, img {
+            border-radius: 10px;
+            width: 43px;
+        }
+
+        .a {
+            margin: 10px;
+        }
+
+        .p {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        p {
+            font-weight: 200;
+            align-items: center;
+            text-align: center;
+            max-width: 110%;
+        }
+
+        .barreira {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            z-index: 9999; /* Certifique-se de que está acima de todos os outros elementos */
+        }
+
+::selection {
+  color: #FFF;
+  background: #7400FF;
+}
+
+::-moz-selection {
+  color: #FFF;
+  background: #7400FF;
+}
+
+          .spotify:hover {
+            background-color: #15ff001f;
+            backdrop-filter: blur(6px); /* Aplica blur no fundo do botão */
+          }
+
+          .behance:hover {
+            background-color: #0084ff1f;
+            backdrop-filter: blur(6px); /* Aplica blur no fundo do botão */
+          }
+
+          .instagram:hover {
+            background-color: #ffa6001f;
+            backdrop-filter: blur(6px); /* Aplica blur no fundo do botão */
+          }
+
+          .linkedin:hover {
+            background-color: #003cff1f;
+            backdrop-filter: blur(6px); /* Aplica blur no fundo do botão */
+          }
+
+          .email:hover {
+            background-color: #ff00001f;
+            backdrop-filter: blur(6px); /* Aplica blur no fundo do botão */
+          }
