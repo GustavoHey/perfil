@@ -2,6 +2,7 @@
         body, main {
             background-color: #070707;
             background-image: url('imgs/fundo.webp');
+            backdrop-filter: blur(10px);
             color: #FFFFFF;
             font-family: Glancyr, sans-serif;
             font-weight: 700;
